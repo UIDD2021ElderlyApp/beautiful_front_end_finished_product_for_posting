@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf8">
+    <title>post</title>
+    <link href="post.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <button id="exit_button">
+            <img src="image/exit_button.svg" width="100%" z-index="3">
+    </button>
+    <div id="upper_windows">
+        <div id="new_post">
+            <button class="new_post_button">新增貼文</button>
+            <input type="text" name="new_post_text" placeholder="打字打在這..." onfocus="this.placeholder = ''" onblur="this.placeholder = '打字打在這...'" />
+        </div>
+        <div id="browse_post">
+            <!-- one post -->
+            <div class="post">
+                <div class="original">
+                    <div class="poster_block">
+                        <div class="poster_photo">
+                            <img src="image/test.svg">
+                        </div>
+                        <div class="post_detail">
+                            <div class="poster_name">XXX</div>
+                            <div class="post_time">OO OO OO</div>
+                        </div>
+                    </div>
+                    <div class="post_text">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaaa<br>aaaaaaaa<br>aaaaaaaaaa<br>aaaaaaa</div>
+                    <div class="post_photo">
+                        <img src="image/test2.svg">
+                    </div>
+                    <div class="new_comment">
+                        <button class="new_comment_button">新增留言</button>
+                        <input type="text" name="new_comment_text" placeholder="打字打在這..." onfocus="this.placeholder = ''" onblur="this.placeholder = '打字打在這...'" />
+                        <button class="post_comment_button">發佈</button>
+                    </div>
+                </div>
+                <div class="comment_group">
+                    <div class="comments">
+                        <div class="commenter_block">
+                            <div class="commenter_photo">
+                                <img src="image/test.svg">
+                            </div>
+                            <div>
+                                <div class="commenter_name">XXX</div>
+                                <div class="comment_time">OO OO OO</div>
+                            </div>
+                        </div>
+                        <div class="comment_text">bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb<br>bbb<br>b b</div>
+                    </div>
+                    <!-- one comment, one div -->
+                    <div class="comments">
+                        <div class="commenter_block">
+                            <div class="commenter_photo">
+                                <img src="image/test.svg">
+                            </div>
+                            <div>
+                                <div class="commenter_name">XXX</div>
+                                <div class="comment_time">OO OO OO</div>
+                            </div>
+                        </div>
+                        <div class="comment_text">bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb<br>bbb<br>b b</div>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="original">
+                    <div class="poster_block">
+                        <div class="poster_photo">
+                            <img src="image/test.svg">
+                        </div>
+                        <div class="post_detail">
+                            <div class="poster_name">XXX</div>
+                            <div class="post_time">OO OO OO</div>
+                        </div>
+                    </div>
+                    <div class="post_text">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaaa<br>aaaaaaaa<br>aaaaaaaaaa<br>aaaaaaa</div>
+                    <div class="post_photo">
+                        <img src="image/test2.svg">
+                    </div>
+                    <div class="new_comment">
+                        <button class="new_comment_button">新增留言</button>
+                        <input id="usr_inp_comment_txt" type="text" name="new_comment_text" placeholder="打字打在這..." onfocus="this.placeholder = ''" onblur="this.placeholder = '打字打在這...'" />
+                        <button class="post_comment_button">發佈</button>
+                    </div>
+                </div>
+                <div class="comment_group">
+                    <div class="comments">
+                        <div class="commenter_block">
+                            <div class="commenter_photo">
+                                <img src="image/test.svg">
+                            </div>
+                            <div>
+                                <div class="commenter_name">XXX</div>
+                                <div class="comment_time">OO OO OO</div>
+                            </div>
+                        </div>
+                        <div class="comment_text">bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb<br>bbb<br>b b</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
